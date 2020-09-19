@@ -1,0 +1,10 @@
+{
+    "permissions": {
+        "api": {
+            "MurmurGql": [
+                "create",
+                "read"
+            ]
+        }
+    }
+}

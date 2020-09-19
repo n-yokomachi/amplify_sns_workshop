@@ -1,0 +1,54 @@
+{
+    "production": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-murmur-production-74602-authRole",
+            "UnauthRoleArn": "arn:aws:iam::765653276628:role/amplify-murmur-production-74602-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::765653276628:role/amplify-murmur-production-74602-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-murmur-production-74602-deployment",
+            "UnauthRoleName": "amplify-murmur-production-74602-unauthRole",
+            "StackName": "amplify-murmur-production-74602",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:765653276628:stack/amplify-murmur-production-74602/9367c3b0-f937-11ea-9413-0ea105e66a72",
+            "AmplifyAppId": "d1wl790wjhjciu"
+        },
+        "categories": {
+            "auth": {
+                "murmur087088ad": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1wl790wjhjciu",
+                    "type": "manual"
+                }
+            }
+        }
+    },
+    "staging": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-murmur-staging-125104-authRole",
+            "UnauthRoleArn": "arn:aws:iam::765653276628:role/amplify-murmur-staging-125104-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::765653276628:role/amplify-murmur-staging-125104-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-murmur-staging-125104-deployment",
+            "UnauthRoleName": "amplify-murmur-staging-125104-unauthRole",
+            "StackName": "amplify-murmur-staging-125104",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:765653276628:stack/amplify-murmur-staging-125104/5a1980e0-fa2b-11ea-8852-0ea0aef9ef68",
+            "AmplifyAppId": "d1wl790wjhjciu"
+        },
+        "categories": {
+            "auth": {
+                "murmur087088ad": {}
+            },
+            "function": {
+                "createPostAndTimeline": {},
+                "MurmurGql": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1wl790wjhjciu",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
