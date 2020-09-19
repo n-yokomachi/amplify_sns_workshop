@@ -15,10 +15,13 @@
             "auth": {
                 "murmur087088ad": {}
             },
+            "function": {
+                "createPostAndTimeline": {}
+            },
             "hosting": {
                 "amplifyhosting": {
                     "appId": "d1wl790wjhjciu",
-                    "type": "manual"
+                    "type": "cicd"
                 }
             }
         }
@@ -43,12 +46,7 @@
                 "createPostAndTimeline": {},
                 "MurmurGql": {}
             },
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "d1wl790wjhjciu",
-                    "type": "manual"
-                }
-            }
+            "hosting": {}
         }
     }
 }
