@@ -48,5 +48,33 @@
             },
             "hosting": {}
         }
+    },
+    "design": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-murmur-design-60916-authRole",
+            "UnauthRoleArn": "arn:aws:iam::765653276628:role/amplify-murmur-design-60916-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::765653276628:role/amplify-murmur-design-60916-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-murmur-design-60916-deployment",
+            "UnauthRoleName": "amplify-murmur-design-60916-unauthRole",
+            "StackName": "amplify-murmur-design-60916",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:765653276628:stack/amplify-murmur-design-60916/624a17c0-fabc-11ea-bafa-0a648eff952a",
+            "AmplifyAppId": "d1wl790wjhjciu"
+        },
+        "categories": {
+            "auth": {
+                "murmur087088ad": {}
+            },
+            "function": {
+                "createPostAndTimeline": {},
+                "MurmurGql": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1wl790wjhjciu",
+                    "type": "cicd"
+                }
+            }
+        }
     }
 }
